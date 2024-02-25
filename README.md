@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Python 3.9 or later
-- Docker (for containerisation, coming soon)
+- Docker (for containerisation)
 
 ### Installation
 
@@ -45,7 +45,10 @@ Access the API at: http://localhost:8000
 
 ### Dockerisation (Coming Soon)
 
-Docker support will be added soon, allowing for easy deployment and scaling of the application.
+To run the API in docker - 
+```sh
+    docker build -t fastapi-app .
+    docker run -d --name myfastapiapp -p 80:80 fastapi-app
 
 ## Usage
 
