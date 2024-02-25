@@ -50,7 +50,7 @@ To run the API in docker -
     docker build -t dwapi .
     docker run -d --name dwquotes -p 80:80 dwapi
 ```
-Visit `http://localhost` in your browser. You should see your FastAPI application running.
+Visit http://localhost in your browser. You should see your FastAPI application running.
 
 ## Usage
 
