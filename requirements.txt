@@ -1,0 +1,5 @@
+fastapi==0.68.0
+uvicorn==0.15.0
+sqlalchemy==1.4.22  # If you're using SQLAlchemy for database operations
+requests==2.26.0  # If you're making HTTP requests
+pydantic==1.8.2  # FastAPI uses Pydantic for data validation; usually installed with FastAPI but can be specified if needed
