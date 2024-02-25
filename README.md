@@ -17,7 +17,7 @@ collected through web scraping techniques. This project serves as a practical ex
 
 - FastAPI for the web framework.
 - SQLite for the lightweight database solution.
-- Docker for containerization and easy deployment.
+- Docker for containerisation and easy deployment.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Python 3.9 or later
-- Docker (for containerization, coming soon)
+- Docker (for containerisation, coming soon)
 
 ### Installation
 
@@ -43,7 +43,7 @@ These instructions will get you a copy of the project up and running on your loc
    
 Access the API at: http://localhost:8000
 
-### Dockerization (Coming Soon)
+### Dockerisation (Coming Soon)
 
 Docker support will be added soon, allowing for easy deployment and scaling of the application.
 
