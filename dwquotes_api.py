@@ -21,6 +21,10 @@ def get_db_connection():
 
 # Define a route for the root URL "/"
 # This function returns a welcome message and instructions on how to use the API
+
+# NOTE: 'async' - asynchronous programming paradigm which allows Python to handle asynchronous 
+# operations. It's a way to write concurrent code that looks sequential. 
+
 @app.get("/")
 async def read_root():
     return {
@@ -29,6 +33,11 @@ async def read_root():
 
 # Define a route for getting a random quote
 # This endpoint responds to GET requests to "/quotes/random"
+
+# NOTE: A cursor in database terms is a database object used to perform operations 
+# on the data in a database. It acts as a handle to the set of rows returned by a 
+# SQL query and allows you to manage and process individual rows returned by database queries. 
+
 @app.get("/quotes/random", response_model=Quote)
 async def read_random_quote():
     conn = get_db_connection()  # Establish a database connection
