@@ -32,11 +32,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
 2. Navigate to the project directory:
-    ```cd doctor-who-quotes-api'''
+    ```sh
+    cd doctor-who-quotes-api
 3. Install the required Python packages:
-   >>> pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
 4. Run the FastAPI application using Uvicorn:
-   >>> uvicorn main:app --reload
+   ```sh
+   uvicorn main:app --reload
    
 Access the API at: http://localhost:8000
 
