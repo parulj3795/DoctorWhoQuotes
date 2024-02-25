@@ -25,7 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Python 3.9 or later
+- Python 3.10 or later
 - Docker (for containerisation)
 
 ### Installation
@@ -33,23 +33,24 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository:
 2. Navigate to the project directory:
     ```sh
-    cd doctor-who-quotes-api```
+    cd doctor-who-quotes-api
 3. Install the required Python packages:
    ```sh
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
 4. Run the FastAPI application using Uvicorn:
    ```sh
-   uvicorn main:app --reload```
+   uvicorn main:app --reload
    
 Access the API at: http://localhost:8000
 
-### Dockerisation (Coming Soon)
+### Dockerisation
 
 To run the API in docker - 
 ```sh
-    docker build -t fastapi-app .
-    docker run -d --name myfastapiapp -p 80:80 fastapi-app
+    docker build -t dwapi .
+    docker run -d --name dwquotes -p 80:80 dwapi
 ```
+Visit `http://localhost` in your browser. You should see your FastAPI application running.
 
 ## Usage
 
