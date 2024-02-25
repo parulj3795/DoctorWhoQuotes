@@ -15,7 +15,7 @@ class Quote(BaseModel):
 
 # Function to establish a connection to the SQLite database
 def get_db_connection():
-    conn = sqlite3.connect('quotes.db')  # Connect to the SQLite database named 'quotes.db'
+    conn = sqlite3.connect('../data/quotes.db')  # Connect to the SQLite database named 'quotes.db'
     conn.row_factory = sqlite3.Row  # Configure the connection to return rows as dictionaries
     return conn  # Return the connection object
 
